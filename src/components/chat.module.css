@@ -1,0 +1,85 @@
+.chatBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 180px;
+}
+
+.onlineUsers {
+  min-width: 200px;
+  min-height: 90vh;
+  color: rgb(56, 219, 165);
+  background-color: rgb(223, 219, 219);
+}
+
+h3 {
+  color: rgb(53, 114, 94);
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0%;
+}
+
+ul > li {
+  margin-top: 10px;
+}
+
+.messages {
+  width: 400px;
+  height: 90vh;
+  background-color: rgb(223, 219, 219);
+}
+
+.messagesBlock p {
+  margin: 15px;
+  padding: 6px 16px;
+  text-align: left;
+  border-radius: 25px;
+  margin-block-start: 0em;
+}
+
+.othersMessages {
+  background-color: rgb(245, 243, 243);
+}
+
+.myMessages {
+  background-color: rgb(56, 219, 165);
+}
+
+.myLables {
+  float: right;
+  color: rgb(56, 219, 165);
+  margin: -14px 15px 0px 0px;
+  font-size: 12px;
+}
+
+.othersLables {
+  float: left;
+  color: rgb(145, 146, 146);
+  margin: -14px 0px 0px 15px;
+  font-size: 12px;
+}
+
+.messagesBlock > div {
+  margin-bottom: 35px;
+}
+.messages button {
+  background-color: rgb(56, 219, 165);
+  cursor: pointer;
+}
+
+.messages button:active {
+  background-color: rgb(134, 202, 180);
+  user-select: none;
+}
+
+.messagesBlock {
+  height: 69vh;
+  overflow: auto;
+  background-color: rgb(223, 219, 219);
+  padding-top: 15px;
+}
+
+.messages > form {
+  margin-top: 15px;
+}
